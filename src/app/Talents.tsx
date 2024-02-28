@@ -14,8 +14,8 @@ const Talents: React.FC<TalentsProps> = ({ Img, alt, text1, text2 }) => {
     <div className="inline-block outline-none mr-[20px]">
       <Image src={Img} alt={alt}></Image>
       <div>
-        <p className="text-black">{text1}</p>
-        <p className="text-black">{text2}</p>
+        <p className="text-black text-[25px] font-[600]">{text1}</p>
+        <p className="text-black text-[20px] font-[400]">{text2}</p>
       </div>
     </div>
   );

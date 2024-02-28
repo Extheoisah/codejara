@@ -40,8 +40,8 @@ const CodeJaraTalents: React.FC = () => {
   };
 
   return (
-    <div>
-      <div className="text-[#090909] mt-[30px] px-[20px] bg-[#FFFFFF]">
+    <div className="bg-[#FFFFFF]">
+      <div className="text-[#090909] mt-[30px] px-[20px]">
         <p className="text-[32px] font-bold text-center pt-[20px]">
           Codejara Talents
         </p>

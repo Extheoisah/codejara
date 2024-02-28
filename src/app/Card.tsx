@@ -12,8 +12,8 @@ interface CardProps {
 
 const Card: React.FC<CardProps> = ({ src, alt, text1, text2 }) => {
   return (
-    <div className="flex justify-center">
-      <div className="w-[90%] border-[#DBE1E7] border-t-[1px] border-r-0 border-b-[1px] border-l-0 mt-[30px] py-[20px] shadow-lg px-[20px]">
+    <div className="flex justify-center bg-[#FAFAFA]">
+      <div className="w-[90%] border-[#DBE1E7] border-t-[1px] border-r-0 border-b-[1px] border-l-0 mt-[30px] py-[20px] shadow-lg px-[20px] rounded-[10px]">
         <div>
           <style jsx>{`
             .shadow-lg {

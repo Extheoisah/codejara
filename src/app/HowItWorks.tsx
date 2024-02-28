@@ -17,7 +17,7 @@ import HWVTB from "./Images/HWVTB.svg"
 const HowItWorks: React.FC = () => {
   return (
     <div className="bg-[#FFFFFF]">
-      <div className="text-black mt-[70px] px-[20px]">
+      <div className="text-black pt-[70px] px-[20px]">
         <p className="text-[32px] font-[600] text-center">How it works</p>
         <p className="text-[18px] leading-[30px] mt-[10px] font-[400] text-center">
           Connect with the talent(s) suitable for your project in three (3) easy
