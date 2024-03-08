@@ -50,13 +50,13 @@ const CodeJaraTalents: React.FC = () => {
           steps
         </p>
       </div>
-
+      
       <div
         ref={carouselRef}
         className="carousel-container overflow-x-auto whitespace-nowrap hide-scrollbar px-[20px] mx-auto mt-[30px]"
         onWheel={handleScroll}
       >
-        <div className="lg:grid lg:grid-cols-4">
+        <div className="lg:grid lg:grid-cols-4 lg:pl-[80px] lg:gap-[40px]">
         <Talents
           Img={Talent1}
           alt="Talent1"
@@ -115,7 +115,7 @@ const CodeJaraTalents: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex justify-center gap-[20px] mt-[40px] pb-[30px]">
+      <div className="flex justify-center gap-[20px] mt-[40px] pb-[30px] lg:hidden">
         <div className="focus:outline-none" onClick={scrollLeft}>
           <Image src={ArrowLeft} alt="ArrowLeft"></Image>
         </div>
@@ -124,11 +124,11 @@ const CodeJaraTalents: React.FC = () => {
         </div>
       </div>
 
-      <div className="flex justify-center items-center mt-[50px] gap-[20px] pb-[50px]">
-          <div className="bg-[#090909] text-[#FFFFFF] rounded-[50px] w-[150px] px-[20px] py-[15px] text-center">
+      <div className="flex justify-center items-center mt-[50px] gap-[20px] pb-[50px] lg:w-full lg:text-[30px]">
+          <div className="bg-[#090909] text-[#FFFFFF] rounded-[50px] w-[150px] px-[20px] py-[15px] lg:py-[25px] text-center lg:w-[45%]">
             Hire Talents
           </div>
-          <div className=" border-[#494949] border-[1px] text-[#090909] rounded-[50px] w-[150px] px-[20px] py-[15px] text-center">
+          <div className=" border-[#494949] border-[1px] text-[#090909] rounded-[50px] w-[150px] px-[20px] py-[15px] lg:py-[25px] text-center lg:w-[45%]">
             Join Codejara
           </div>
         </div>

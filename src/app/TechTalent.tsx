@@ -18,7 +18,7 @@ const TechTalent:React.FC<TechTalentsProps> = ({ Img, alt, text1, text2 }) => {
 
         <div className="mt-[20px]">
             <p className="text-[25px] font-[600]">{text1}</p>
-            <p className="text-[15px] font-[400]">{text2}</p>
+            <p className="text-[15px] font-[400] lg:w-[65%]">{text2}</p>
         </div>
 
       </div>

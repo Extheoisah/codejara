@@ -23,7 +23,7 @@ const OtherSteps: React.FC<OtherStepsProps> = ({
   return (
     <div className="mt-[50px] text-center px-[20px]">  
       {/* Content */}
-      <div className="relative z-[50]">
+      <div className="relative z-[50] lg:hidden">
         <Image src={number} alt={alt} className="mx-auto"></Image>
         <p className="text-[25px] font-[600] mt-[30px]">{text1}</p>
 
@@ -37,6 +37,7 @@ const OtherSteps: React.FC<OtherStepsProps> = ({
           {text3}
         </p>
       </div>
+
       
     </div>
   );

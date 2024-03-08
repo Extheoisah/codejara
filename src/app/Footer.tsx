@@ -11,10 +11,10 @@ export default function Footer() {
       <Image
         src={LOGO}
         alt="LOGO"
-        className="w-[70%] mx-auto mt-[30px]"
+        className="w-[70%] mx-auto mt-[30px] lg:w-[50%]"
       ></Image>
 
-      <p className="text-[16px] font-[400] text-center px-[30px] leading-[30px] mt-[25px]">
+      <p className="text-[16px] font-[400] text-center px-[30px] leading-[30px] mt-[25px] lg:text-[20px] lg:w-[50%] lg:mx-auto lg:mt-[50px]">
         Connecting Clients from all over the world with Nigeria&#39;s Top Tech
         Talents for Building, Scaling, and Growing Businesses.
       </p>
@@ -25,7 +25,7 @@ export default function Footer() {
         <Image src={Twitter} alt="Linkedlin"></Image>
       </div>
 
-      <div className=" border-[#494949] border-[1px] text-[#090909] text-[14px] font-[400] bg-[#FFFFFF] rounded-[50px] w-[200px] px-[20px] py-[25px] text-center mx-auto mt-[70px]">
+      <div className=" border-[#494949] border-[1px] text-[#090909] text-[14px] font-[400] bg-[#FFFFFF] rounded-[50px] w-[200px] px-[20px] py-[25px] text-center mx-auto mt-[70px] lg:text-[30px] lg:w-[45%]">
         Hire Talents
       </div>
 

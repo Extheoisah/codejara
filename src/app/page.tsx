@@ -22,6 +22,8 @@ const Home: React.FC = () => {
     <main className=" mb-[]">
       <Navbar />
       <HeroSection />
+
+      <div className="lg:flex lg:px-[80px] lg:bg-[#FAFAFA] lg:pt-[70px] lg:pb-[70px]">
       <Card
         src={Card1}
         alt="Image 1"
@@ -42,27 +44,35 @@ const Home: React.FC = () => {
         text1="End-to-End Coordination"
         text2="We are not just a connection platform; we facilitate the entire project life, ensuring smooth coordination from the initial concept to the final delivery."
       />
+      </div>
       <HowItWorks />
       <CodeJaraTalents />
       <Question />
   
       <div className="bg-[#FAFAFA] pt-[100px] pb-[70px]">
         <div className="text-[#090909] pt-[30px] px-[20px]">
-          <p className="text-[32px] font-bold text-center pt-[20px]">
+          <p className="text-[32px] font-bold text-center pt-[20px] lg:text-[50px]">
             Tech Talents you can find at Codejara{" "}
           </p>
-          <p className="text-[18px] leading-[30px] mt-[10px] font-normal text-center">
+          <p className="text-[18px] leading-[30px] mt-[10px] font-normal text-center lg:text-[25px]">
             Find the tech talent you need with our versatile expertise. Explore
             our tech stack offerings below:{" "}
           </p>
         </div>
+    <div className="lg:grid lg:grid-cols-3 lg:px-[40px] lg:gap-[50px]">
+        <TechTalent
+          Img={SE}
+          alt="alt"
+          text1="Software Engineering"
+          text2="Harness the expertise of Nigerian tech talents to develop robust and scalable solutions tailored to your unique needs."
+        />
         <TechTalent
           Img={PD}
           alt="alt"
           text1="Product Design"
           text2="Elevate your product's user experience with innovative design concepts and user-centric interfaces crafted by our talented designers"
         />
-
+        
         <TechTalent
           Img={PM}
           alt="alt"
@@ -90,6 +100,7 @@ const Home: React.FC = () => {
           text1="Blockchain Development"
           text2="Explore the possibilities of blockchain technology with our expert developers, creating decentralised solutions for apps"
         />
+        </div>
       </div>
       <Connect />
       <Footer/>
